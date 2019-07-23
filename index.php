@@ -26,8 +26,34 @@
 
 <body>
 
-	<header class="header">
+	<header class="header" id="home">
 		
+		<!-- navbar -->
+
+		<nav class="navbar navbar-expand-lg navbar-default fixed-top">
+			  <a class="navbar-brand" href="#"><!-- small size logo -->
+			  	<img src="image/logo-small.png" alt="logo">
+			  </a>
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#loso-navbar-collapse-1" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			    <span class="navbar-toggler-icon"></span>
+			  </button>
+
+			  <div class="collapse navbar-collapse " id="loso-navbar-collapse-1">
+			    <ul class="navbar-nav mr-auto ">
+
+			      <li class="nav-item"><a class="nav-link" href="#home">HOME</a></li>
+			      <li class="nav-item"><a class="nav-link" href="#about">ABOUT</a></li>
+			      <li class="nav-item"><a class="nav-link" href="#features">FEATURES</a></li>
+			      <li class="nav-item"><a class="nav-link" href="#screens">SCREENS</a></li>
+			      <li class="nav-item"><a class="nav-link" href="#download">DOWNLOAD</a></li>
+			      <li class="nav-item"><a class="nav-link" href="#contact">CONTACT</a></li>
+			    </ul>
+
+			  </div>
+</nav>
+
+
+
 		<div class="header-overlay">
 			<div class="container">
 				
@@ -85,7 +111,7 @@
 	 </header>  <!-- HEADER -->
 	
 	<!-- About Us -->
-	<section>
+	<section id="about">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-10 offset-md-1">
@@ -206,7 +232,7 @@
 	</section>
 
 	<!-- Features -->
-	<section class="features">
+	<section id="features" class="features">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-10 offset-md-1">
@@ -302,8 +328,233 @@
 		</div><!-- .features-inner-wrapper -->
 	</section> <!-- .features -->
 
+	<!-- screens -->
+	<section id="screens" class="screens">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-10 offset-md-1">
+					<div class="section-title">
+						<h2>BAŞLIK BAŞLIK BAŞLIK</h2>
+						<p>acı, sürekli 'buraya metin gelecek, buraya metin gelecek' yazmaya kıyasla daha dengeli bir harf dağılımı sağlayarak okunurluğu artırmasıdır. Şu anda birçok masaüstü yayıncılık paketi ve web sayfa düzenleyicisi, varsayılan mıgır metinler olarak Lorem Ipsum kullanmaktadır. Ayrıca arama motorlarında 'lorem ipsum' anahtar sözcükleri ile arama yapıldığında henüz tasarım aşamasında olan çok sayıda site listelenir. Yıllar içinde,</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="screen-slider">
+			<div class="carousel">
+				<div class="item">
+					<img src="image/screen-01.png" width="60" height="60" alt="screen">	
+				</div>
+				<div class="item">
+					<img src="image/screen-02.png" width="60" height="60" alt="screen">	
+				</div>
+				<div class="item">
+					<img src="image/screen-03.png" width="60" height="60" alt="screen">	
+				</div>
+				<div class="item">
+					<img src="image/screen-04.png" width="60" height="60" alt="screen">	
+				</div>
+			</div>			
+		</div>
+	</section>
+	<!-- counter -->
+	<section class="counter">
+		<div class="counter-overlay">
+			<div class="container">
+				<div class="row text-center">
+					
+					<div class="col-md-3">
+						<div class="counter-item">
+							<div class=""> <i class="fa fa-cloud-download"></i> </div>
+							<h2>
+								<span class="counter-num">1588</span>
+								<span class="">+</span>								
+							</h2>
+							<p>Downloads</p>
+						</div>
+					</div>
+
+					<div class="col-md-3">
+						<div class="counter-item">
+							<div class=""> <i class="fa fa-gift"></i> </div>
+							<h2>
+								<span class="counter-num">3500</span>
+								<span class="">+</span>								
+							</h2>
+							<p>Awards</p>
+						</div>
+					</div>
+
+					<div class="col-md-3">
+						<div class="counter-item">
+							<div class=""> <i class="fa fa-heart-o"></i> </div>
+							<h2>
+								<span class="counter-num">199</span>
+								<span class="">+</span>								
+							</h2>
+							<p>Likes</p>
+						</div>
+					</div>
+
+					<div class="col-md-3">
+						<div class="counter-item">
+							<div class=""> <i class="fa fa-check"></i> </div>
+							<h2>
+								<span class="counter-num">1066</span>
+								<span class="">+</span>								
+							</h2>
+							<p>Recommended</p>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- download -->
+	<section id="download" class="download-now">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-10 offset-md-1">
+					<div class="section-title">
+						<h2>Download Now</h2>
+						<p> 'buraya metin gelecek, buraya metin gelecek' yazmaya kıyasla daha dengeli bir harf dağılımı sağlayarak okunurluğu artırmasıdır. Şu anda birçokeliştirilmiş</p> 
+					</div> 
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="row">
+					<div class="col-md-8 offset-md-2">
+						<img src="image/download-screen.png" alt="download screen">
+					</div> 
+			</div> 
+		</div>
+	</section>
+
+	<!-- available on -->
+	<section class="available-on">
+		<div class="container">
+			<div class="row">
+				
+				<div class="col-md-6">
+					<div class="available-title">
+						<h2>Available Now</h2>
+						<p>kli 'buraya metin gelecek, buraya metin gelecek' yazmaya kıyasla daha dengeli bir harf dağılımı sağlayarak okunurluğu artırmasıdır. Şu anda birçok masaüstü yayıncılık paketi ve web sayfa düzenleyicisi, v</p>
+					</div>
+				</div>
+
+				<div class="col-md-6">
+					<div class="row">
+						
+							<div class="col-md-4 no-padding">
+								<div class="available-on-item">
+									<i class="fa fa-apple"></i>
+									<div class="available-on-inner">
+										<h2>IOS</h2>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-4 no-padding">
+								<div class="available-on-item">
+									<i class="fa fa-android"></i>
+									<div class="available-on-inner">
+										<h2>Android</h2>
+									</div>
+								</div>
+							</div>
+
+						
+							<div class="col-md-4 no-padding">
+								<div class="available-on-item">
+									<i class="fa fa-windows"></i>
+									<div class="available-on-inner">
+										<h2>Windows</h2>
+									</div>
+								</div>
+							</div>
+
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+	<!-- contact me -->
+	<section id="contact" class="contact-me">
+		
+		<div class="container">
+			<div class="row">
+				<div class="col-md-10 offset-md-1">
+					<div class="section-title">
+						<h2>Contact with me</h2>
+						<p>fa düzenleyicisi, varsayılan mıgır metinler olarak Lorem Ipsum kullanmaktadır. Ayrıca arama motorlarında 'lorem ipsum' anahtar sözcükleri ile arama </p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="contact-me-form">
+			<div class="container">
+				<form role="form">
+					<div class="row">
+
+						<div class="col-md-4">
+							<input type="text" class="form-control" id="name" placeholder="name">
+							<input type="email" class="form-control" id="email" placeholder="email">
+							<input type="text" class="form-control" id="subject" placeholder="subject">
+						</div>
+
+						<div class="col-md-8">
+							<textarea class="form-control" id="message" rows="10" cols="10" placeholder="Write your message"></textarea>
+							<button type="button" class="btn btn-primary submit-btn form_submit">SEND</button>
+						</div>
+
+					</div>
+				</form>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="social-icons">
+						<ul>
+							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="#"><i class="fa fa-youtube-play"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<div id="copyright">
+						<p>Copyright &copy; 2019 <a href="#">LoSo</a> </p>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="scroll-top">
+						<a href="#home"><i class="fa fa-angle-up"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
 	<script src="js/jquery.js"></script>
 	<script src="js/bootstrap.min.js"></script>
+	<!-- custom js -->
+	<script src="js/custom.js"></script>
 </body>
 
 </html>

@@ -4,6 +4,11 @@
 	padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+
 body{
 	font-family: 'Raleway', sans-serif;
 	overflow-y: scroll;
@@ -78,12 +83,13 @@ p{
 	-moz-transition: all 1s;	
 	-o-transition: all 1s;	
 }
-.narbar-default .navbar-nav > .active > a,
-.narbar-default .navbar-nav > .active > a:hover,
-.narbar-default .navbar-nav > .active > a:focus{
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus{
 	background-color: transparent;
 	color: #129CF3;
 }
+
 /* -------------- HEADER -------------------*/
 .header{
 	background-image: url("../image/header-bg.jpg");

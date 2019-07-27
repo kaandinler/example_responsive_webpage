@@ -15,8 +15,12 @@
 	<link rel="stylesheet" type="text/css" href="css/kaandinler.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
-
-	<!--  -->
+	<!-- animate css -->
+	<link rel="stylesheet" type="text/css" href="css/animate.min.css">
+	<!-- BXSlider Css -->
+	<link rel="stylesheet" type="text/css" href="css/jquery.bxslider.min.css">
+	<!-- responsive -->
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
 
 
 	<!-- Google Fonts -->
@@ -39,7 +43,7 @@
 			  </button>
 
 			  <div class="collapse navbar-collapse " id="loso-navbar-collapse-1">
-			    <ul class="navbar-nav mr-auto ">
+			    <ul class="navbar-nav ml-auto ">
 
 			      <li class="nav-item"><a class="nav-link" href="#home">HOME</a></li>
 			      <li class="nav-item"><a class="nav-link" href="#about">ABOUT</a></li>
@@ -55,7 +59,7 @@
 
 
 		<div class="header-overlay">
-			<div class="container">
+			<div class="container header-container">
 				
 				<div class="row">
 					
@@ -82,10 +86,10 @@
 
 					<div class="header-btns">
 						<!-- header buttons -->
-						<a href="#" class="btn btn-contact">
+						<a href="#" class="btn btn-contact animated fadeInLeft">
 							Contact
 						</a>
-						<a href="#" class="btn btn-tour">		Take A Tour
+						<a href="#" class="btn btn-tour animated fadeInRight">		Take A Tour
 							<i class="fa fa-angle-down"></i>
 						</a>
 						
@@ -93,9 +97,9 @@
 
 				</div> <!-- .col-md-8 -->
 
-				<div class="col-md-3 offset-md-1">
+				<div class="col-md-3 offset-md-1 animated fadeInRight">
 					
-					<div class="header-devices">
+					<div class="header-devices ">
 						<!-- header devices -->
 						<img src="image/iphone-header.png" alt="header devices">
 					</div>
@@ -114,7 +118,7 @@
 	<section id="about">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-10 offset-md-1">
+				<div class="col-md-10 offset-md-1 ">
 					<!-- about us title and description -->
 					<div class="section-title">
 						<h2>About Me</h2>
@@ -127,13 +131,13 @@
 		<div class="choose-me-wrapper">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-6">
+					<div class="col-md-6 animated fadeInLeft slow">
 						<!-- about web -->
 						<div class="about-web">
 							<img src="image/about-iphone.png" alt="web">
 						</div> <!-- .about-web -->
 					</div><!-- .col-md-6 -->
-					<div class="col-md-6">
+					<div class="col-md-6 animated fadeInRight slow">
 						<!-- Why choose me -->
 						<div class="choose-me-title">
 							<h2>Why Choose Me?</h2>
@@ -181,7 +185,7 @@
 		<div class="testimonial-overlay">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-12">
+					<div class="col-md-12 animated bounceInDown slow">
 						<div id="carousel-testimonial" class="carousel slide" data-ride="carousel">
 							<!-- indicators -->
 							<ol class="carousel-indicators">
@@ -341,19 +345,24 @@
 			</div>
 		</div>
 		<div class="screen-slider">
-			<div class="carousel">
-				<div class="item">
-					<img src="image/screen-01.png" width="60" height="60" alt="screen">	
-				</div>
-				<div class="item">
-					<img src="image/screen-02.png" width="60" height="60" alt="screen">	
-				</div>
-				<div class="item">
-					<img src="image/screen-03.png" width="60" height="60" alt="screen">	
-				</div>
-				<div class="item">
-					<img src="image/screen-04.png" width="60" height="60" alt="screen">	
-				</div>
+			<div class="container">
+				<div class="row">
+					<div class="slider">
+						<div class="item">
+							<img src="image/screen-01.png" alt="screen">	
+						</div>
+						<div class="item">
+							<img src="image/screen-02.png" alt="screen">	
+						</div>
+						<div class="item">
+							<img src="image/screen-03.png" alt="screen">	
+						</div>
+						<div class="item">
+							<img src="image/screen-04.png" alt="screen">	
+						</div>
+					</div>
+					
+				</div> <!-- row -->
 			</div>			
 		</div>
 	</section>
@@ -555,6 +564,11 @@
 	<script src="js/bootstrap.min.js"></script>
 	<!-- custom js -->
 	<script src="js/custom.js"></script>
+	<!-- BXSlider js -->
+	<script src="js/jquery.bxslider.min.js"></script>
+	<!-- counter lib -->
+	<script src="js/jquery.counterup.min.js"></script>
+	<script src="js/jquery.waypoints.min.js"></script>
 </body>
 
 </html>

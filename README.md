@@ -1,2 +1,2 @@
 # example_web_page
-This web page was created via an udemy course.
+This web page was created via a udemy course.
